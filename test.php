@@ -1,5 +1,17 @@
 <?php
 
+class TestMonkey {
+
+  public $property;
+  public $enemy;
+
+  function method($property, $enemy) {
+    $this->$property = $argument;
+    $this->$enemy = $enemy;
+  }
+
+}
+
 function hello($world) {
   echo "Hello, $world.";
 }
